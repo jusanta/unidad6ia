@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de Zapatos</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Estiliza el título principal con CSS personalizado -->
+      <div class="container mt-4">
+        <!-- Estiliza el título principal con CSS personalizado -->
+        <h1 class="titulo-principal animated fadeInDown">
+          Bienvenido a la Tienda de Zapatos
+        </h1>
+        <!-- Agrega el contenido de tu página aquí -->
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="destacados">
+      <h2>Productos Destacados</h2>
+      <div class="producto">
+        <img
+          src="https://w7.pngwing.com/pngs/723/143/png-transparent-shoe-nike-free-air-force-nike-shoes-image-file-formats-fashion-outdoor-shoe-thumbnail.png"
+          alt="Zapato 1"
+        />
+        <h3>Zapato Elegante</h3>
+        <p>Precio: $99.99</p>
+        <button>Comprar</button>
+      </div>
+      <div class="producto">
+        <img
+          src="https://w7.pngwing.com/pngs/137/205/png-transparent-khaki-shoe-leather-khaki-shoes-brown-mens-fashion-thumbnail.png"
+          alt="Zapato 2"
+        />
+        <h3>Zapato Deportivo</h3>
+        <p>Precio: $79.99</p>
+        <button>Comprar</button>
+      </div>
+      <!-- Agrega más productos aquí -->
+    </section>
+
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <p>Para consultas y pedidos, contáctanos en:</p>
+      <address>
+        Email:
+        <a href="mailto:info@tutiendazapatos.com">info@tutiendazapatos.com</a
+        ><br />
+        Teléfono: <a href="tel:+123456789">123-456-789</a>
+      </address>
+    </section>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Medida en Centímetros</th>
+          <th>Talla de Zapato</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>22.0 - 22.5 cm</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>22.6 - 23.0 cm</td>
+          <td>36</td>
+        </tr>
+        <tr>
+          <td>23.1 - 23.5 cm</td>
+          <td>37</td>
+        </tr>
+        <tr>
+          <td>23.6 - 24.0 cm</td>
+          <td>38</td>
+        </tr>
+        <!-- Agrega más filas según sea necesario -->
+      </tbody>
+    </table>
+    <!-- Botón para volver arriba -->
+    <button
+      id="btnVolverArriba"
+      class="btn btn-primary btn-volver-arriba custom-button"
+    >
+      Volver arriba
+    </button>
+    <form action="enviar.php" method="POST">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+      <p>&copy; 2023 Tienda de Zapatos</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

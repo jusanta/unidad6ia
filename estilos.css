@@ -1,0 +1,165 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para la sección de productos destacados */
+.destacados {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.producto {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.producto img {
+  max-width: 100%;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el encabezado */
+h1 {
+  text-align: center;
+}
+/* Estilos para el título principal h1 */
+.titulo-principal {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #dfcece; /* Cambia el color a tu preferencia */
+  margin-bottom: 20px;
+}
+/* Estilos para el botón personalizado */
+.custom-button {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Quita el borde */
+  border-radius: 5px; /* Borde redondeado */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+  transition: background-color 0.3s ease-in-out; /* Transición de color de fondo */
+}
+
+.custom-button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+}
+.btn-volver-arriba {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior según tu preferencia */
+  right: 580px; /* Ajusta la distancia desde la derecha según tu preferencia */
+}
+/* Estilos para el formulario y sus elementos */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
